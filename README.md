@@ -6,9 +6,9 @@ The project is divided into five steps:
 
 1. **Base heating network** – A small DHNx network with five consumers, two heat producers and two pipe types is created.
 2. **Network expansion** – The network is expanded to ten consumers, five producers and a larger selection of pipe diameters to better see later on how the optimisation takes place.
-3. **Energy system optimization** – The heat producers are modeled in `oemof.solph` and their dispatch is optimized to meet the aggregated heat demand.
+3. **Energy system optimization** – The heat producers are modeled and their dispatch is optimized with `oemof.solph` to meet the aggregated heat demand.
 4. **Integration of DHNx and oemof** – Heat losses from the district heating network are added to the demand of the energy system model to study their effect on generation and costs.
-5. **Environmental optimization** – CO₂ costs are introduced to investigate how emission pricing changes the optimal dispatch of the different heat-generation technologies.
+5. **Environmental optimization** – CO₂ emissin costs are added to investigate how this changes optimal dispatch of the different heat-generation technologies.
 
 Each step has its own folder containing the relevant **input files, Python code and generated output files**, making it possible to follow the development of the model step by step.
 
