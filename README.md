@@ -14,4 +14,8 @@ Each step has its own folder containing the relevant **input files, Python code 
 
 One thing to keep in mind when looking at the results from the first network-optimization steps is the relatively small physical size of the network. Because the pipe lengths are short, the **fixed investment costs** have a stronger influence on the optimization than the cost per meter of pipe. This affects how the optimizer chooses between the available pipe types.
 
-With the  project showing  **network design, pipe sizing, heat losses, generation dispatch, costs and CO₂ emissions** it can be considered a simplified  integrated district heating optimization workflow.
+The parameters can be changed in in the network.csv 02_inputs/Input_data_S1/invest_data/network. the network creation is sensitive however to drastic changes and might crash if there are unreasonable values listed
+
+To know more about DHNC and what parametesr and codes they use here is the documentation which I thought was pretty goodd  so you will manage to find everything thre that I am using in this repository and thoruout the steps.
+https://dhnx.readthedocs.io/en/latest/network.html
+
