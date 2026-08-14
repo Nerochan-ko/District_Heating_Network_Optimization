@@ -16,6 +16,9 @@ One thing to keep in mind when looking at the results from the first network-opt
 
 The parameters can be changed in in the network.csv 02_inputs/Input_data_S1/invest_data/network. the network creation is sensitive however to drastic changes and might crash if there are unreasonable values listed
 
-To know more about DHNC and what parametesr and codes they use here is the documentation which I thought was pretty goodd  so you will manage to find everything thre that I am using in this repository and thoruout the steps.
+To know more about DHNC and what parameters and codes they use here is the documentation which I thought was pretty good  so you will manage to find everything there that I am using in this repository and thoruout the steps.
 https://dhnx.readthedocs.io/en/latest/network.html
+Same goes for oemof.solph https://oemof-solph.readthedocs.io/en/stable/
+
+I recommend using a better solver like Gurobi to save some time in the computing as well.
 
